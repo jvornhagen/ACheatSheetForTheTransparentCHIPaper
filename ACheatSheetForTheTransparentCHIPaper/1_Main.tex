@@ -1,0 +1,94 @@
+\documentclass[final,hyperref={pdfpagelabels=false}]{beamer}
+
+\usepackage{macros}
+\usepackage{fontawesome5}
+\usepackage{hyperref}
+
+\usefolder{../}
+\usetheme{CS}
+
+%%%%%% To change the theme color, uncomment the following lines and set your own color. %%%%%%
+%%%%%%%% You can also directly modify the colors in the file beamercolorthemeCS.sty %%%%%%%%
+%
+% \definecolor{mycolor}{rgb}{0.61, 0.42, 0.61}
+\definecolor{mycolor}{RGB}{85, 40, 111}
+\definecolor{headercolor}{RGB}{11, 9, 10}
+\definecolor{blockbgcolor}{RGB}{245, 243, 244}
+%\colorlet{codebg}{mycodecolor}
+% 
+\setbeamercolor{structure}{bg = mycolor}
+\setbeamercolor{title page}{fg = mycolor}
+\setbeamercolor{alerted text}{fg = mycolor, bg = main}
+\setbeamercolor{block title example}{fg = mycolor}
+\setbeamercolor{block body}{bg = blockbgcolor}
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+
+\usepackage{times}
+\usepackage{amsmath,amsthm, amssymb, latexsym}
+\usepackage{xcolor}
+\boldmath
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[orientation=landscale, size=a4, scale=1.5, debug]{beamerposter}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{tipa}
+
+\usepackage{xspace}
+\usepackage[inline]{enumitem}
+
+\usepackage{tikz}
+\usetikzlibrary{tikzmark}
+
+%% Fonts used in the template cannot be substituted; margin 
+%% adjustments are not allowed.
+    
+% \newcommand\ytl[2]{
+% \parbox[b]{8em}{\hfill{\color{violet}\bfseries\sffamily #1}~$\cdots$~}\makebox[0pt][c]{$\bullet$}\vrule\quad \parbox[c]{5cm}{\vspace{7pt}\color{darkgray}\raggedright\sffamily #2.\\[7pt]}\\[-3pt]}
+
+%Use arabic numbers instead of letters for marking the footnote -VP
+\renewcommand{\thempfootnote}{\arabic{mpfootnote}}
+%Remove the line separating the footnote -VP
+%\renewcommand*\footnoterule{}
+
+\usepackage[scale=1.6]{ccicons}
+
+\def\q{\textquotesingle}
+
+  \graphicspath{{figures/}}
+  
+  \title{The Transparent CHI Paper}
+  \subtitle{Cheat Sheet}
+
+  \begin{document}
+  
+  \begin{frame}[fragile]{} 
+    \vfill
+    \begin{columns}[t]
+      \begin{column}{.4\linewidth}
+        \maketitle
+        \input{the_why}
+      \end{column}
+      
+      \begin{column}{.6\linewidth}
+    \input{base-r/common_tools}
+        \input{base-r/checklist}
+      \end{column}
+     \end{columns}
+    \vfill
+  \end{frame}
+\clearpage  
+  \begin{frame}[fragile]{}
+    \begin{columns}[t]
+      \begin{column}{0\linewidth}
+      \end{column}
+            
+      \begin{column}{\linewidth}
+              \input{timeline}
+      \end{column}
+     \end{columns}
+   \end{frame}
+
+\end{document}
