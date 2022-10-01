@@ -12,9 +12,13 @@
 *.idx 
 *.ilg 
 *.ind 
+*.nav
 *.out 
 *.url 
+*.snm
 *.svn 
 *.synctex.gz
 *.toc
 **/.DS_Store
+*.vrb
+.Rproj.user
