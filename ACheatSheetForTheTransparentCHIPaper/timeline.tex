@@ -1,31 +1,66 @@
 % !TEX root = 1_Main.tex
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Empty Line:
+
+%\multirow{2}{*}{\color{violet}\framebox(80, 25){} $\cdots$\makebox[0pt][c]{$\bullet$}}  &\multirow{2}{*}{\textbf{Titel}} &  $\cdot$ & \\ & & & \\
+
+% Note that the first field deaturing the date-box is a double row
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{block}{Timeline}
 Fill in the blanks with your target deadlines. If a particular step does not apply to your work, feel free to cross it out. 
 \begin{table}[]
-\Large
 \color{darkgray}
 \begin{tabular}{rlll}
 \multicolumn{1}{c}{\textcolor{headercolor}{\textbf{TIMELINE}}} & \multicolumn{2}{c}{\textcolor{headercolor}{\textbf{YOUR ACTION ITEMS}}} & \textcolor{headercolor}{\textbf{RESOURCES}}\\
 & & & \\
-\multirow{2}{*}{\color{violet}\framebox(80, 25){} $\cdots$\makebox[0pt][c]{$\bullet$}}  &\multirow{2}{*}{\textbf{Ethics Approval}} &  $\cdot$ collect data sharing & [Check your universities guidelines]\\
- & & consent& \\
- %& & & \\
-\multirow{2}{*}{\color{violet}\framebox(80, 25){} $\cdots$\makebox[0pt][c]{$\bullet$}} & \multirow{2}{*}{\textbf{Preregistration}} & Check if a Preregistration could be beneficial for your work. &
-    \href{https://aspredicted.org/}{\includegraphics[width=0.8cm]{img/aspredicted_penn_wharton.png}}  
-\href{https://aspredicted.org/}{AsPredicted.org}\\
- & & If yes, Preregister & \href{https://osf.io/registries}{\includegraphics[width=0.8cm]{img/osf registries.png}}  
-\href{https://help.osf.io/article/345-create-registrations}{OSF Guide and templates}  \\
-  & & & \\
-  \multirow{2}{*}{\color{violet}\framebox(80, 25){} $\cdots$\makebox[0pt][c]{$\bullet$}} &\textbf{Data Collection} &  $\cdot$ deidentify/anonymize data, &  \href{https://edps.europa.eu/system/files/2021-04/21-04-27_aepd-edps_anonymisation_en_5.pdf}{\includegraphics[width=0.75cm]{img/anonymise_data.png}} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Header: Before Beginning the Study
+\multicolumn{1}{l}{\textcolor{violet}{\textbf{Before Beginning the Study:}}} & & & \\ \hline
+&&&\\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Ehtics Approval
+\multirow{2}{*}{\color{violet}\framebox(80, 25){} $\cdots$\makebox[0pt][c]{$\bullet$}}  &\multirow{2}{*}{\textbf{Ethics Approval}} &  $\cdot$ Get consent to & [Check your universities guidelines]\\
+ & & share your data & \\
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Preregistration
+\multirow{2}{*}{\color{violet}\framebox(80, 25){} $\cdots$\makebox[0pt][c]{$\bullet$}} & \multirow{2}{*}{\textbf{Preregistration}} & Check which preregistration template applies to you. & \href{https://osf.io/registries}{\includegraphics[width=0.8cm]{img/osf registries.png}}  
+\href{https://help.osf.io/article/345-create-registrations}{OSF Guide and templates}
+    %\href{https://aspredicted.org/}{\includegraphics[width=0.8cm]{img/aspredicted_penn_wharton.png}}  
+%\href{https://aspredicted.org/}{AsPredicted.org} <-- Removed as not a guide and already in the Common Tools Section.
+\\
+ & & %If yes, Preregister <-- Removed and rephrased to facilitate people actually looking it up. We already start the table with the warning some stuff may not apply (JV)
+ & \\
+ 
+&&&\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Header: Before you Begin Data Collection
+\multicolumn{1}{l}{\textcolor{violet}{\textbf{Before you Begin Data Collection:}}} & & & \\ \hline
+&&&\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Data Collection and Organisation
+\multirow{2}{*}{\color{violet}\framebox(80, 25){} $\cdots$\makebox[0pt][c]{$\bullet$}} &\textbf{Data Collection} &  $\cdot$ deidentify/anonymize data, &  \href{https://edps.europa.eu/system/files/2021-04/21-04-27_aepd-edps_anonymisation_en_5.pdf}{\includegraphics[width=0.75cm]{img/anonymise_data.png}} 
   \href{https://edps.europa.eu/system/files/2021-04/21-04-27_aepd-edps_anonymisation_en_5.pdf}{How To}\\
  \color{violet} & \textbf{and Organization} & choose a non-proprietary file format (e.g., csv) &  \\
- & &$\cdot$ create a data dictionary & \href{https://github.com/yvonnejansen/posture/blob/master/data/exp1_column-description.csv}{\includegraphics[width=0.75cm]{img/data_dictionary.png}} \href{https://github.com/yvonnejansen/posture/blob/master/data/exp1_column-description.csv}{Check Example}\\
+ & &$\cdot$ create a data dictionary & \href{https://github.com/yvonnejansen/posture/blob/master/data/exp1_column-description.csv}{\includegraphics[width=0.75cm]{img/osf registries.png}} \href{https://help.osf.io/article/217-how-to-make-a-data-dictionary}{How To}\\
   & & & \\
-\multirow{2}{*}{\color{violet}\framebox(80, 25){} $\cdots$\makebox[0pt][c]{$\bullet$}} &\textbf{Data Analysis} &  $\cdot$ clean, executable, and & \href{https://www.r-project.org/}{\includegraphics[width=0.95cm]{img/Rlogo.png}}  \href{https://www.r-project.org/}{R} \quad \href{https://www.python.org/}{\includegraphics[width=0.75cm]{img/python_logo.jpg}}  \href{https://www.python.org/}{Python} \quad \href{ https://jasp-stats.org/}{\includegraphics[width=0.8cm]{img/JASP_logo.png}}  \href{ https://jasp-stats.org/}{JASP}\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Header: After Data Collection
+\multicolumn{1}{l}{\textcolor{violet}{\textbf{After Data Collection:}}} & & & \\ \hline
+&&&\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Data Analysis
+\multirow{2}{*}{\color{violet}\framebox(80, 25){} $\cdots$\makebox[0pt][c]{$\bullet$}} &\textbf{Data Analysis} &  $\cdot$ clean, executable, and & \multirow{2}{*}{\href{https://www.r-project.org/}{\includegraphics[width=0.95cm]{img/Rlogo.png}}  \href{https://www.r-project.org/}{R} \quad \href{https://www.python.org/}{\includegraphics[width=0.75cm]{img/python_logo.jpg}}  \href{https://www.python.org/}{Python} \quad \href{ https://www.rensvandeschoot.com/tutorials/jasp-for-beginners/}{\includegraphics[width=0.8cm]{img/JASP_logo.png}}  \href{ https://jasp-stats.org/}{JASP} }\\
  & & commented code/script & \\
  & & &  \\
-%  & & & \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Header: Finishing Up
+\multicolumn{1}{l}{\textcolor{violet}{\textbf{Finishing Up:}}} & & & \\ \hline
+&&&\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Supplementary Material
 \multirow{2}{*}{\color{violet}\framebox(80, 25){} $\cdots$\makebox[0pt][c]{$\bullet$}} &\textbf{Supplementary} &  Add to a repository: &  \href{https://zenodo.org/}{\includegraphics[width=1.5cm]{img/zenodo.png}}  \href{https://zenodo.org/}{Zenodo.org}\\
  & \textbf{Material} & $\cdot$ data,  &
  \href{https://dataverse.harvard.edu/}{\includegraphics[width=1.5cm]{img/harvard_dataverse.png}} \href{https://dataverse.harvard.edu/}{Harvard Dataverse}\\
@@ -36,8 +71,12 @@ Fill in the blanks with your target deadlines. If a particular step does not app
   & & $\cdot$ videos, and &  \href{https://gitlab.com/}{\includegraphics[width=0.8cm]{img/gitlab-logo-500.png}} \href{https://gitlab.com/}{GitLab}\\
 & & $\cdot$ anything else relevant to you. & \\
 & & & \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% You did it!
 \multirow{2}{*}{\color{violet}\framebox(80, 25){} $\cdots$\makebox[0pt][c]{\faTrophy}} & &  &\\
 & \multicolumn{2}{c}{\includegraphics[width=0.75cm]{img/star (1).png} \color{violet}YOU DID IT! \includegraphics[width=0.75cm]{img/star (1).png}}& \\
+
+
 \end{tabular}
 \end{table}
 

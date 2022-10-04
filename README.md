@@ -14,7 +14,7 @@ If you go the TinyTex direction, you may also need to install a few additional p
 
 ```
 library(tinytex)
-tlmgr_install(c("beamerposter", "type1cm", "fontawesome5", "ccicons", "babel-english"))
+tlmgr_install(c("beamer", "beamerposter", "type1cm", "fontawesome5", "ccicons", "babel-english", "caption", "grfext"))
 ```
 
 If you are using a less lightweight LaTeX installation, some of these packages may come with your installation, or you will need to learn to use a package manager.
