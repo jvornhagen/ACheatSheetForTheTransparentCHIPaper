@@ -1,6 +1,14 @@
 # ACheatSheetForTheTransparentCHIPaper
 Repo for the cheat sheet for the transparent CHI paper
 
+## Credits
+This work was started during the Dagstuhl Seminar 22392 by Lahari Goswami, Amelia McNamara, Viktorija Paneva, Jan Benjamin Vornhagen, and Erich Weichselgartner. For full credit, please refer to the CREDIT_List.csv.
+
+Please cite as:
+Lahari Goswami, Amelia McNamara, Viktorija Paneva, Jan B Vornhagen, and Erich Weichselgartner. 2022. A Cheat Sheet for a Transparent CHI paper. https://doi.org/10.17605/OSF.IO/YHWUQ
+
+
+## Instructions
 To compile locally, you will need a LaTeX installation. One idea is to use TinyTex, a minimal LaTeX distribution which is integrated well with R and RStudio. In R, you can run
 
 ```
@@ -19,3 +27,10 @@ tlmgr_install(c("beamer", "beamerposter", "type1cm", "fontawesome5", "ccicons", 
 
 If you are using a less lightweight LaTeX installation, some of these packages may come with your installation, or you will need to learn to use a package manager.
 
+## Acknowledgements
+
+We want to thank the following people for their input and recommendations:
+
+* Chat Wacharamanotham for organising the Dagstuhl seminar, bringing us all together, and giving valuable input to for this cheat sheet.
+
+* Mikke Tavast for providing early feedback.
