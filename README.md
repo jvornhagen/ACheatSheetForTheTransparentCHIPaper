@@ -1,5 +1,5 @@
-# ACheatSheetForTheTransparentCHIPaper
-Repo for the cheat sheet for the transparent CHI paper
+# A Cheat Sheet For The Transparent CHI Paper
+Repo for the "Cheat Sheet for the Transparent CHI Paper"
 
 ## Credits
 This work was started during the Dagstuhl Seminar 22392 by Lahari Goswami, Amelia McNamara, Viktorija Paneva, Jan Benjamin Vornhagen, and Erich Weichselgartner. For full credit, please refer to the CREDIT_List.csv.
