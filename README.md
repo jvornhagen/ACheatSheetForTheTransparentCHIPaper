@@ -34,3 +34,5 @@ We want to thank the following people for their input and recommendations:
 * Chat Wacharamanotham for organising the Dagstuhl seminar, bringing us all together, and giving valuable input to for this cheat sheet.
 
 * Mikke Tavast for providing early feedback.
+
+* Jim Wallace for suggesting the ACM policies page
